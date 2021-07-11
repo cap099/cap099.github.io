@@ -16,6 +16,14 @@
   top: 0;
 }
 
+a {
+  color: #FFF;
+}
+a:hover {
+   color: rgb(70, 14, 143)
+}
+
+
 .App-link {
   color: white;
 }

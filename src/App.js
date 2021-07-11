@@ -1,5 +1,10 @@
 import './App.css';
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
+import Bio from './components/Bio.js'
+import Projects from './components/Projects.js'
+import Home from './components/Home.js'
+import Resume from './components/Resume.js'
+import Courses from './components/Courses.js'
 
 
 function App() {
@@ -13,6 +18,7 @@ function App() {
                     <Route path="/bio" component={Bio}/>
                     <Route path="/projects" component={Projects}/>
                     <Route path="/resume" component={Resume}/>
+                    <Route path="/courses" component={Courses}/>
                 </header>
             </div>
         </Switch>
@@ -32,6 +38,7 @@ function Nav(){
             <NavButton name="Bio" link = "bio"/>
             <NavButton name="Projects" link = "projects"/>
             <NavButton name="Resume" link = "resume"/>
+            <NavButton name="Relevant Course Work" link = "courses"/>
         </div>
     );
 }
@@ -48,35 +55,5 @@ function NavButton(props){
 
 
 
-function Home(){
-    return (
-        <div>
-            <h1>Home</h1> 
-        </div>
-    );
-}
 
 
-function Bio(){
-    return (
-        <div>
-            <h1>Bio</h1> 
-        </div>
-    );
-}
-
-function Projects(){
-    return (
-        <div>
-            <h1>Projects</h1> 
-        </div>
-    );
-}
-
-function Resume(){
-    return (
-        <div>
-            <h1>Resume</h1> 
-        </div>
-    );
-}
