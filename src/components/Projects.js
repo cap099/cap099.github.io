@@ -46,9 +46,9 @@ function ProjectCard(){
     <a href="/posts/test.html">
         <img className="card-img-top" src={linkedin} alt="Card cap" height="200px"/>
             <div className="card-body">
-                <h5 className="card-title" id="card-title">Umpire Consistency Scores (UCS 1.0)</h5>
-                    <p className="card-text" id="card-subtitle">A new measure of umpire consistency for UmpScorecards.</p>
-                        <p className="card-text" id="card-date"><small class="text-muted">Apr 2nd, 2021</small></p>
+                <h5 className="card-title" id="card-title">Title</h5>
+                    <p className="card-text" id="card-subtitle">Subtitle</p>
+                        <p className="card-text" id="card-date"><small class="text-muted">Jul 12th, 2021</small></p>
             </div>
     </a>
 </div>
