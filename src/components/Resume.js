@@ -1,7 +1,9 @@
 function Resume(){
     return (
         <div>
-            <h1>Resume</h1> 
+            <p>
+                This page will contain a copy of my Resume
+            </p>
         </div>
     );
 }

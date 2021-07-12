@@ -1,7 +1,9 @@
 function Projects(){
     return (
         <div>
-            <h1>Projects</h1> 
+            <p> 
+                This page will contain descriptions of personal projects that I have worked on    
+            </p>
         </div>
     );
 }
