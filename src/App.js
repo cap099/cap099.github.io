@@ -1,10 +1,11 @@
 import './App.css';
-import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import About from './components/About.js'
 import Projects from './components/Projects.js'
 import Home from './components/Home.js'
 import Resume from './components/Resume.js'
 import Courses from './components/Courses.js'
+import Nav from './components/Nav.js';
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
         <Switch>
             <div className="App">
                 <header className="App-header">
-                    <Nav />
+                    <Nav/>
                     <Route path="/" exact component={Home}/>
                     <Route path="/About" component={About}/>
                     <Route path="/projects" component={Projects}/>
@@ -27,33 +28,3 @@ function App() {
 }
 
 export default App;
-
-
-function Nav(){
-    return (
-        <div className="nav-bar">
-            <Link to={"/"} style={{ textDecoration: 'none'}}>
-                {/* <h1>Caleb Patton</h1> */}
-            </Link>
-            {/* <NavButton name="About" link = "About"/>
-            <NavButton name="Projects" link = "projects"/>
-            <NavButton name="Resume" link = "resume"/>
-            <NavButton name="Relevant Course Work" link = "courses"/> */}
-        </div>
-    );
-}
-
-function NavButton(props){
-    return (
-        <div className="nav-button">
-            <Link to={'/' + props.link}  style={{ textDecoration: 'none' }}>
-                <h2>{props.name}</h2>   
-            </Link>
-        </div>
-    );
-}
-
-
-
-
-
