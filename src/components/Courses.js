@@ -1,7 +1,7 @@
 function Courses(){
     return (
         <div>
-            <h1>Relevant Class Work</h1> 
+            <h1>Courses</h1> 
         </div>
     );
 }

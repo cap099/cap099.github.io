@@ -1,6 +1,6 @@
 import './App.css';
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
-import Bio from './components/Bio.js'
+import About from './components/About.js'
 import Projects from './components/Projects.js'
 import Home from './components/Home.js'
 import Resume from './components/Resume.js'
@@ -15,7 +15,7 @@ function App() {
                 <header className="App-header">
                     <Nav />
                     <Route path="/" exact component={Home}/>
-                    <Route path="/bio" component={Bio}/>
+                    <Route path="/About" component={About}/>
                     <Route path="/projects" component={Projects}/>
                     <Route path="/resume" component={Resume}/>
                     <Route path="/courses" component={Courses}/>
@@ -33,12 +33,12 @@ function Nav(){
     return (
         <div className="nav-bar">
             <Link to={"/"} style={{ textDecoration: 'none'}}>
-                <h1>Caleb Patton</h1>
+                {/* <h1>Caleb Patton</h1> */}
             </Link>
-            <NavButton name="Bio" link = "bio"/>
+            {/* <NavButton name="About" link = "About"/>
             <NavButton name="Projects" link = "projects"/>
             <NavButton name="Resume" link = "resume"/>
-            <NavButton name="Relevant Course Work" link = "courses"/>
+            <NavButton name="Relevant Course Work" link = "courses"/> */}
         </div>
     );
 }
