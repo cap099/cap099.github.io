@@ -10,11 +10,9 @@ a:hover {
    color: rgb(70, 14, 143)
 }
 
-
 .App {
   text-align: center;
 }
-
 
 .App-header {
   background-color: #282c34;
@@ -41,7 +39,6 @@ a:hover {
   background-color: #282c34;
 }
 
-
 .home-paragraph {
   margin-top: 50px;
 }
@@ -50,3 +47,29 @@ a:hover {
   float:left;
   margin-left: 50px;
 }
+
+
+.grid-container{
+  display: grid;
+  width: 50%;
+  margin: 0 auto;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+}
+
+.grid-item{
+  display: inline-grid;
+
+}
+
+.card {
+  background-color: rgb(20, 122, 238);
+  width: 248px;
+  height: 400px;
+  border-radius: 20px;
+  margin-top: 10px;
+
+}
+
+
