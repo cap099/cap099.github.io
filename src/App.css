@@ -1,7 +1,19 @@
+*{ 
+  margin: 0; 
+  padding: 0; 
+}
+
+a {
+  color: #FFF;
+}
+a:hover {
+   color: rgb(70, 14, 143)
+}
+
+
 .App {
   text-align: center;
 }
-
 
 
 .App-header {
@@ -15,14 +27,6 @@
   color: white;
   top: 0;
 }
-
-a {
-  color: #FFF;
-}
-a:hover {
-   color: rgb(70, 14, 143)
-}
-
 
 .App-link {
   color: white;
@@ -39,8 +43,3 @@ a:hover {
   
 }
 
-
-*{ 
-    margin: 0; 
-    padding: 0; 
-}
