@@ -9,7 +9,7 @@ function Nav(){
             <NavButton name="About" link = "About"/>
             <NavButton name="Projects" link = "projects"/>
             <NavButton name="Resume" link = "resume"/>
-            <NavButton name="Relevant Course Work" link = "courses"/>
+            <NavButton name="Relevant Coursework" link = "courses"/>
         </div>
     );
 }
