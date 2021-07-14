@@ -1,13 +1,10 @@
 {
-
-
-
     "article1": {
-                    "title": "test title",
-                    "subtitle": "test subtitle",
-                    "date": "07/13/2021",
-                    "tools": ["python", "sql", "sklearn"],
-                    "image": "/src/components/resources/headshot.jpg",
+                    "title": "averagejoeauto.com",
+                    "subtitle": "",
+                    "date": "2021",
+                    "tools": ["React"],
+                    "image": "/src/components/resources/reactLogo.png",
                     "text": "this is a very long article.......",
                     "link": "article1"
                 },
