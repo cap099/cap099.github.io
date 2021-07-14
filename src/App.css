@@ -33,7 +33,9 @@ a:hover {
   align-items: center;
   background-color: #282c34;
 }
-
+.body {
+  margin-top: 20px;
+}
 .home-paragraph {
   margin-top: 50px;
 }

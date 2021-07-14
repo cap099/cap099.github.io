@@ -15,11 +15,13 @@ function App() {
             <div className="App">
                 <header>
                     <Nav/>
-                    <Route path="/" exact component={Home}/>
-                    <Route path="/about" component={About}/>
-                    <Route path="/projects" component={Projects}/>
-                    <Route path="/resume" component={Resume}/>
-                    <Route path="/courses" component={Courses}/>
+                    <div className = 'body'>
+                        <Route path="/" exact component={Home}/>
+                        <Route path="/about" component={About}/>
+                        <Route path="/projects" component={Projects}/>
+                        <Route path="/resume" component={Resume}/>
+                        <Route path="/courses" component={Courses}/>
+                    </div>
                 </header>
             </div>
         </Switch>
