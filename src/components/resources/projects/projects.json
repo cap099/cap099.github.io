@@ -1,23 +1,21 @@
 {
-    "article1": {
+    "project1": {
                     "title": "averagejoeauto.com",
-                    "subtitle": "",
+                    "subtitle": "subtitle",
                     "date": "2021",
                     "tools": ["React"],
-                    "image": "/src/components/resources/reactLogo.png",
-                    "text": "this is a very long article.......",
-                    "link": "article1"
+                    "image": "logo.png",
+                    "link": "averagejoeauto"
                 },
 
 
-    "article2": {
+    "project2": {
                     "title": "test title2",
                     "subtitle": "test subtitle2",
                     "date": "07/13/2022",
                     "tools": ["python", "sql", "sklearn"],
                     "image": "/src/components/resources/headshot.jpg",
-                    "text": "this is a very long article.......",
-                    "link": "article2"
+                    "link": "project2"
                 }
 
 

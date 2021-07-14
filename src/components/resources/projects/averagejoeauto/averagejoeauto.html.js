@@ -1,4 +1,6 @@
-module.exports = `<!DOCTYPE html>
+module.exports = 
+`<!DOCTYPE html>
+
 
 <div className='test'>
     <h1>this is a title</h1>
