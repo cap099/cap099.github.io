@@ -12,7 +12,7 @@ function Home(){
                     This website is still being built.  For now you can just go to my LinkedIn:
                 <br></br>
                 <br></br>
-                <a className="App-link" href="https://www.linkedin.com/in/cajp" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/cajp" target="_blank" rel="noopener noreferrer">
                     <img src = {linkedin} alt='linkedin logo' width="50" height="50"/>
                 </a>
             </p>          

@@ -13,7 +13,7 @@ function App() {
     <Router>
         <Switch>
             <div className="App">
-                <header className="App-header">
+                <header>
                     <Nav/>
                     <Route path="/" exact component={Home}/>
                     <Route path="/about" component={About}/>

@@ -1,5 +1,6 @@
 import data from './resources/projects/projects.json'
 import { Route, Switch, useParams, useRouteMatch } from 'react-router-dom/cjs/react-router-dom.min'
+import './resources/styles/projects.css'
 
 
 function Projects(){
@@ -51,12 +52,31 @@ function ProjectCard(props){
         <div className="card">
             <a href={route.url + '/' + props.link}>
                 <img className="card-img-top" src={img} alt="card header" height="200px"/>
+                <h4 className="card-title">{props.title}</h4>
+            </a>
                 <div className="card-body">
-                    <h5 className="card-title">{props.title}</h5>
+                    
                         <p className="card-text" >{props.subtitle}</p>
                         <p className="card-text"><small class="text-muted">{props.date}</small></p>
+
+                    <div className="tool-tags">
+                        <Tool name = 'React'/>
+                        <Tool name = 'HTML'/>
+                        <Tool name = 'CSS'/>
+                    </div>
+                    
                 </div>  
-            </a>
+            
+        </div>
+    );
+}
+
+
+function Tool(props){
+
+    return (
+        <div className = 'tool'>
+            {props.name}
         </div>
     );
 }
