@@ -16,7 +16,7 @@ function App() {
                 <header className="App-header">
                     <Nav/>
                     <Route path="/" exact component={Home}/>
-                    <Route path="/About" component={About}/>
+                    <Route path="/about" component={About}/>
                     <Route path="/projects" component={Projects}/>
                     <Route path="/resume" component={Resume}/>
                     <Route path="/courses" component={Courses}/>

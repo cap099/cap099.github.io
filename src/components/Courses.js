@@ -1,4 +1,4 @@
-function Courses(){
+function Courses(text){
     return (
         <div>
             <p>
