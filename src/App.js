@@ -10,7 +10,7 @@ import Navigation from './components/Navigation.js';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename={'cap099.github.io'}>
         <Switch>
             <div className="App">
                 <header>
