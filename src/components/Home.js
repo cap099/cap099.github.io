@@ -1,9 +1,15 @@
 import headshot from './resources/headshot.jpg'
-
+// import blockI from './resources/Illinois_Block_I.png'
+import {Image, Container, Row, Col} from 'react-bootstrap'
 
 function Home(){
     return (
-            <div>
+            <Container fluid>
+            
+                
+            <div className="home">
+            <Row>
+            <Col lg={5}>
                 <div className='intro'>
                     <h1 className='intro-heading'>Hi, I'm Caleb Patton</h1>
                     <div className='intro-subheading'>I like Data and Robots</div>
@@ -12,9 +18,18 @@ function Home(){
                         <br></br>
                         <br></br>
                     </div>   
-                </div>      
-                <img className='home-headshot' src = {headshot} alt="headshot" width="475" height = "475"/>
+                </div>     
+                </Col>
+                <Col lg={2}></Col>
+                <Col lg={5}>
+                <div className='headshot'> 
+                    <Image src = {headshot} alt="headshot" width="500" height = "500" roundedCircle/>
+                </div>
+                </Col>
+                </Row>
             </div> 
+            
+            </Container> 
     );
 }
 
