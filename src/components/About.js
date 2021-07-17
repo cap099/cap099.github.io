@@ -1,7 +1,7 @@
 function About(){
     return (
-        <div>
-            About Me, Classes, Experience   
+        <div className='temp'>
+            This page will contain a short Bio, as well as my interests, skills and what I'm currently working on   
         </div>
     );
 }

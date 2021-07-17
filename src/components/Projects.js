@@ -12,12 +12,15 @@ function Projects(){
             {/* <p>This page will contain descriptions of personal projects that I have worked on</p> */}
                 <div className='grid-container'>
                     <div className='grid-item'>
-                        <ProjectCard title = {data.project1.title} 
+                    <div className='temp'>
+                    This page will contain descriptions of select personal projects that I have worked on  
+        </div>
+                        {/* <ProjectCard title = {data.project1.title} 
                                     subtitle = {data.project1.subtitle} 
                                     date = {data.project1.date}
                                     tools = {data.project1.tools}
                                     image = {data.project1.image}
-                                    link = {data.project1.link}/>  
+                                    link = {data.project1.link}/>   */}
                                </div>
                 </div>
             </Route>

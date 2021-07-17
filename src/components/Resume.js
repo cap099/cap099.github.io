@@ -1,6 +1,7 @@
 function Resume(){
     return (
-        <div>
+        <div className='temp'>
+            This page will contain a copy of my resume
         </div>
     );
 }
