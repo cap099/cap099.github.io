@@ -10,7 +10,7 @@ import Navigation from './components/Navigation.js';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
         <Switch>
             <div className="App">
                 <header>
