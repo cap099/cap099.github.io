@@ -11,12 +11,9 @@ function Navigation(){
                     <Navbar.Brand bsPrefix ='logo' href = '/'>Home <Image src = {headshot} alt="headshot" width="80" height = "80" roundedCircle/></Navbar.Brand>
                     <Navbar.Collapse className='justify-content-end' id='responsive-navbar-nav'>
                         <Nav>
-                            <Nav.Link bsPrefix = 'custom-link' href = 'about'>About</Nav.Link>
-                            <Nav.Link bsPrefix = 'custom-link' href = 'projects'>Projects</Nav.Link>
-                            <Nav.Link bsPrefix = 'custom-link' href = 'resume'>Resume</Nav.Link>
-                            <Link to = {'/articles'}>
-                                <h2>Articles</h2>
-                            </Link>
+                            <Link className = 'custom-link' to = {'/about'}>About</Link>
+                            <Link className = 'custom-link' to = {'/projects'}>Projects</Link>
+                            <Link className = 'custom-link' to = {'/resume'}>Resume</Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
