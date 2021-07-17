@@ -19,9 +19,7 @@ function Home(){
                     </div>   
                 </div>     
                 </Col>
-                <Col lg={1}> 
-                </Col>
-                <Col lg={5}>
+                <Col lg={6}>
                 <div className='headshot'> 
                     <Image src = {headshot} alt="headshot" width="450" height = "450" roundedCircle/>
                 </div>

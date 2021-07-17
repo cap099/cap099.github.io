@@ -4,7 +4,7 @@ import headshot from './resources/headshot.jpg'
 
 function Navigation(){
     return (
-            <Navbar  collaspeOnSelect fixed = 'sticky' expand = 'sm'>
+            <Navbar  collaspeOnSelect sticky="top" expand = 'sm' variant='dark'>
                 <Container>
                     <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
                     <Navbar.Brand bsPrefix ='logo' href = '/'>Home <Image src = {headshot} alt="headshot" width="80" height = "80" roundedCircle/></Navbar.Brand>
