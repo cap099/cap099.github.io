@@ -17,9 +17,9 @@ function Projects(){
 
     return (
         <div>
-        <h3 className='project-header'>Ask me about my other projects!</h3>
         <Switch>
             <Route exact path={route.path}>
+            <h3 className='project-header'>Ask me about my other projects!</h3>
                     <Container fluid >
                         <Row className='project-grid'>
                             {projects.map(
