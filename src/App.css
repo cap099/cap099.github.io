@@ -5,6 +5,15 @@ p {
     text-justify: inter-word;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(190, 118, 9);
+}
+
+
 body {
     font-size: 100%;
 }
@@ -61,3 +70,4 @@ img {
     max-width: 100%;
     height: auto;
 }
+

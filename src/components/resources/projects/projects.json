@@ -1,15 +1,14 @@
 {
-    "project1": {
-                    "title": "averagejoeauto.com",
+    "projects": [ {
+                    "title": "cap099.github.io",
                     "subtitle": "Sole Developer",
                     "date": "2021",
-                    "tools": ["React"],
+                    "tools": ["React", "Bootstrap","HTML/CSS"],
                     "image": "logo.png",
-                    "link": "averagejoeauto"
+                    "link": "portfolio"
                 },
 
-
-    "project2": {
+               {
                     "title": "test title2",
                     "subtitle": "test subtitle2",
                     "date": "07/13/2022",
@@ -18,7 +17,6 @@
                     "link": "project2"
                 }
 
-
-
+            ]
 
 }
