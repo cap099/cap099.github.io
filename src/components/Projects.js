@@ -1,15 +1,9 @@
-import data from './resources/projects/projects.json'
 import projects from './resources/projects/projects.js'
 import './resources/styles/projects.css'
-import {Card, Button, Container, Row} from 'react-bootstrap'
+import {Card, Container, Row} from 'react-bootstrap'
 import {Link, Route, Switch, useParams, useRouteMatch } from 'react-router-dom'
 
 
-
-
-  {/* <div className='temp'>
-                    This page will contain descriptions of select personal projects that I have worked on  
-        </div> */}
 
 
 function Projects(){
@@ -48,14 +42,8 @@ export default Projects;
 
 function Article(){
     let {articleName} = useParams();
-    var __html = require('./resources/projects/' + articleName + '/' + articleName + '.html.js');
-    var article = { __html: __html };
-
-    return (
-        <div>
-            <span dangerouslySetInnerHTML={article} /> 
-        </div>
-    );
+    var article = require('./resources/projects/' + articleName + '/' + articleName + '.html.js').default;
+    return (article);
 }
 
 
