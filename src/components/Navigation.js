@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 
 function Navigation(){
     return (
-            <Navbar  collaspeOnSelect sticky="top" expand = 'sm' variant='dark'>
+            <Navbar  collaspeOnSelect expand = 'sm' variant='dark'>
                 <Container fluid>
                     <Navbar.Brand bsPrefix ='logo' href = '/'><Image src = {headshot} alt="headshot" width="80" height = "80" roundedCircle/> Home</Navbar.Brand>
                     <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
@@ -13,16 +13,13 @@ function Navigation(){
                         <Nav>
                             <Link className = 'custom-link' to = {'/about'}>About</Link>
                             <Link className = 'custom-link' to = {'/projects'}>Projects</Link>
-                            <Link className = 'custom-link' to = {'/resume'}>Resume</Link>
+                            <a className = 'custom-link' href = 'https://drive.google.com/file/d/1vm6DLQO7uN-cc72WMLmi1DhuLg1r36q0/view?usp=sharing'>Resume</a>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
         );
 }
-
-
-
 
 export default Navigation;
 

@@ -1,4 +1,4 @@
-export default [
+var project_array = [
     {
         "title": "cap099.github.io",
         "subtitle": "Sole Developer",
@@ -7,10 +7,11 @@ export default [
         "image": "logo.png",
         "link": "portfolio"
     },
-
-
+    
 
 ]
+
+export default project_array;
 
 
 // {

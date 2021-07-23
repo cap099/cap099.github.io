@@ -4,7 +4,7 @@ import {Image, Container, Row, Col} from 'react-bootstrap'
 function Home(){
     return (
             <Container fluid>
-                <div className="home">
+                {/* <div className="home"> */}
                 <Row>
                     <Col lg={12} align='center'>
                         <div className='headshot'> 
@@ -13,7 +13,7 @@ function Home(){
                     </Col>
                 </Row>
                 <Row>
-                    <Col lg={12} align='left'>
+                    <Col lg={12}>
                         <div className='intro'>
                             <h1 className='intro-heading'>Hi, I'm Caleb Patton</h1>
                             <div className='intro-subheading'>I like Data and Robots</div>
@@ -26,7 +26,7 @@ function Home(){
                         </div>     
                     </Col>
                 </Row>
-            </div> 
+            {/* </div>  */}
             </Container> 
     );
 }
