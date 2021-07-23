@@ -1,4 +1,4 @@
-export default [
+var projects = [
     {
         "title": "cap099.github.io",
         "subtitle": "Sole Developer",
@@ -11,6 +11,8 @@ export default [
 
 
 ]
+
+export default projects;
 
 
 // {
