@@ -1,6 +1,6 @@
 import {Image , Navbar, Nav, Container} from 'react-bootstrap';
-import headshot from './resources/headshot.jpg'
-import {Link} from 'react-router-dom'
+import headshot from './resources/headshot.jpg';
+import {Link} from 'react-router-dom';
 
 
 function Navigation(){
@@ -13,7 +13,7 @@ function Navigation(){
                         <Nav>
                             <Link className = 'custom-link' to = {'/about'}>About</Link>
                             <Link className = 'custom-link' to = {'/projects'}>Projects</Link>
-                            <a className = 'custom-link' href = 'https://drive.google.com/file/d/1vm6DLQO7uN-cc72WMLmi1DhuLg1r36q0/view?usp=sharing'>Resume</a>
+                            <a className = 'custom-link' target = '_blank' rel="noreferrer" href = 'https://drive.google.com/file/d/1vm6DLQO7uN-cc72WMLmi1DhuLg1r36q0/view?usp=sharing'>Resume</a>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

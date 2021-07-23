@@ -39,7 +39,7 @@ export default Projects;
 
 function Article(){
     let {articleName} = useParams();
-    var article = require('./resources/projects/' + articleName + '/' + articleName + '.html.js').default;
+    var article = require('./resources/projects/' + articleName + '/' + articleName + '.js').default;
     return (article);
 }
 
@@ -52,7 +52,7 @@ function ProjectCard(props){
     var tool_string = "";
     for (var i = 0; i < tools.length; i++){
         if (i < tools.length -1){
-            tool_string += (tools[i] + '-');
+            tool_string += (tools[i] + '+');
         } else {
             tool_string += tools[i];
         }   

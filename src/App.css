@@ -69,3 +69,11 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+
+
+
+.about-div{
+    max-width: 70%;
+    float: 'center';
+}
