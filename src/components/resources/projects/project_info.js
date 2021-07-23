@@ -7,8 +7,7 @@ var projects = [
         "image": "logo.png",
         "link": "portfolio"
     },
-
-
+    
 
 ]
 

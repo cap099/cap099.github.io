@@ -1,10 +1,7 @@
-import projects from './resources/projects/projects.js'
+import projects from './resources/projects/project_info.js'
 import './resources/styles/projects.css'
 import {Card, Container, Row} from 'react-bootstrap'
 import {Link, Route, Switch, useParams, useRouteMatch } from 'react-router-dom'
-
-
-
 
 function Projects(){
     let route = useRouteMatch();
@@ -55,7 +52,7 @@ function ProjectCard(props){
     var tool_string = "";
     for (var i = 0; i < tools.length; i++){
         if (i < tools.length -1){
-            tool_string += (tools[i] + ' | ');
+            tool_string += (tools[i] + '-');
         } else {
             tool_string += tools[i];
         }   
