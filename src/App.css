@@ -45,7 +45,7 @@ body {
 }
 
 
-a.custom-link, .logo {
+a.custom-link, .logo, nav-link {
     text-decoration: none;
     color: rgb(200,222,231);
     margin-left: 10px;
@@ -71,9 +71,49 @@ img {
 }
 
 
-
+.bio {
+    font-size: 0.6em;
+    max-width: 40%;
+    display: 'flex';
+}
 
 .about-div{
     max-width: 70%;
     float: 'center';
+    font-size: 0.9em;
 }
+
+.experience-logo {
+    max-width: 30%;
+}
+
+.experience-tab {
+    display: block;
+    padding: .5rem 1rem;
+    color: rgb(200, 222, 231);
+    text-decoration: none;
+ 
+}
+
+.experience-tab:hover{
+    color: rgb(190, 118, 9);
+}
+
+.active.tab {
+    background-color: rgb(18, 37, 124);
+}
+
+
+.title {
+    font-size: 0.8em;
+}
+
+.experience {
+    max-width: 60%;
+}
+
+
+.contributions {
+    font-size: 0.5em;
+}
+
