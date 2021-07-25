@@ -1,8 +1,17 @@
-import {Container, Row, Col} from 'react-bootstrap'
+import {Container, Row, Image, Col} from 'react-bootstrap'
+import headshot from './resources/headshot.jpg'
+
 
 function Home(){
     return (
             <Container fluid>
+                <Row>
+                    <Col lg={12} align='center'>
+                        <div className='headshot'> 
+                            <Image src = {headshot} alt="headshot" width="450" height = "450" roundedCircle/>
+                        </div>
+                    </Col>
+                </Row>
                 <Row>
                     <Col lg={12}>
                         <div className='intro'>

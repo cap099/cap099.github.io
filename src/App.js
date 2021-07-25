@@ -15,10 +15,9 @@ function App() {
                 <header>
                     <Navigation/>
                     <Route path="/" exact component={Home}/>
-                    {/* <Route path="/about" component={About}/> */}
+                    <Route path="/about" component={About}/>
                     <Route path="/projects" component={Projects}/>
                 </header>
-                <About/>
             </div>
         </Switch>
     </Router>

@@ -1,9 +1,8 @@
-import {Accordion, Card, Button, Tab, Row, Col, Nav, Image} from "react-bootstrap";
+import {Container, Tab, Row, Col, Nav, Image} from "react-bootstrap";
 import ijet_logo from './resources/ijet_logo.png';
 import altamont_logo from './resources/altamont_logo.webp';
 import xaptum_logo from './resources/xaptum_logo.png';
 import python_logo from './resources/python_logo.png'
-import headshot from './resources/headshot.jpg'
 
 
 
@@ -11,30 +10,31 @@ import headshot from './resources/headshot.jpg'
 function About() {
   return (
     <div className='about-div'>
+        <Container fluid>
+            <Row>
+                <Col lg={12} align='center'>
+                <div className='bio'>
+                    <p>
+                        Hello! My name is Caleb and I'm currently a senior in Computer Engineering at the University of Illinois at Urbana-Champaign.  
+                        My main interests are Robotics and Data Science however I enjoy all kinds of software development. 
+                    </p>
+                    <p>
+                        I have interned at several tech companies over the past few years.  Currently, I work at Brunswick Corporation's iJet Laboratory as a 
+                        Computer Vision/Machine Learning Intern applying my knowledge of Artificial Intelligence to assist in the construction of iJet's 
+                        Computer Vision Pipeline.
+                    </p>
+                    <p>
+                        When I am not working I can often be found  running, biking, cheering for the Saint Louis Cardinals or playing one of my saxophones.
+                    </p>
+                </div>
+                </Col>
+            </Row>
 
-<Row>
-                    <Col lg={12} align='center'>
-                        <div className='headshot'> 
-                            <Image src = {headshot} alt="headshot" width="450" height = "450" roundedCircle/>
-                        </div>
-                    </Col>
-                </Row>
-            <div className='bio'>
-                <p>
-                    Hello! My name is Caleb and I'm currently a senior in Computer Engineering at the University of Illinois at Urbana-Champaign.  
-                    My main interests are Robotics and Data Science however I enjoy all kinds of software development. 
-                </p>
-                <p>
-                    I have interned at several tech companies over the past few years.  Currently, I work at Brunswick Corporation's iJet Laboratory as a 
-                    Computer Vision/Machine Learning Intern applying my knowledge of Artificial Intelligence to assist in the construction of iJet's 
-                    Computer Vision Pipeline.
-                </p>
-                <p>
-                    When I am not working I can often be found  running, biking, cheering for the Saint Louis Cardinals or playing one of my saxophones.
-                </p>
-            </div>
+            <Row>
+                <Col lg={12} align='center'>
 
-      <div className = 'experience'>
+        
+                <div className = 'experience'>
       <Tab.Container   defaultActiveKey="first">
         <Row>
             <Col sm={3}>
@@ -95,53 +95,11 @@ function About() {
         </Row>
     </Tab.Container>
     </div>
-    <br></br>
-    <br></br>
-
-    <br></br>
-
-    <br></br>
-    <br></br>
-
-    <br></br>
-
-    <br></br>
+                </Col>
+            </Row>
 
 
-    <Accordion defaultActiveKey="0">
-        <Card className = 'about-card'>
-          <Card.Header>
-            <Accordion.Toggle as={Button} variant="text" eventKey="0">
-              Programming Languages Libraries and Tools
-            </Accordion.Toggle>
-          </Card.Header>
-          <Accordion.Collapse eventKey="0">
-            <Card.Body><Image src={python_logo}/></Card.Body>
-          </Accordion.Collapse>
-        </Card>
-        <Card className = 'about-card'>
-          <Card.Header>
-            <Accordion.Toggle as={Button} variant="text" eventKey="1">
-              <h1>Design Software</h1>
-            </Accordion.Toggle>
-          </Card.Header>
-          <Accordion.Collapse eventKey="1">
-            <Card.Body>body 2</Card.Body>
-          </Accordion.Collapse>
-        </Card>
-        <Card className = 'about-card'>
-          <Card.Header>
-            <Accordion.Toggle as={Button} variant="text" eventKey="2">
-              Manufacturing Technologies
-            </Accordion.Toggle>
-          </Card.Header>
-          <Accordion.Collapse eventKey="2">
-            <Card.Body>laser</Card.Body>
-          </Accordion.Collapse>
-        </Card>
-      </Accordion>
-
-
+        </Container>
       </div>
    
   );

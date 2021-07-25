@@ -92,6 +92,7 @@ img {
     padding: .5rem 1rem;
     color: rgb(200, 222, 231);
     text-decoration: none;
+    text-align: left;
  
 }
 
@@ -101,8 +102,12 @@ img {
 
 .active.tab {
     background-color: rgb(18, 37, 124);
+
 }
 
+.tab-pane {
+    text-align: left;
+}
 
 .title {
     font-size: 0.8em;
