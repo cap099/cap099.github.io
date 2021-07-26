@@ -1,6 +1,5 @@
 import {Container, Row, Image, Col} from 'react-bootstrap'
 import headshot from './resources/headshot.jpg'
-import About from './About.js'
 
 
 
@@ -21,38 +20,13 @@ function Home(){
                             <h1 className='intro-heading'>Hi, I'm Caleb Patton</h1>
                             <div className='intro-subheading'>I like Data and Robots</div>
                             <div className='intro-paragraph'>
+                                calebpatton09@gmail.com
                             </div>   
                         </div>     
                     </Col>
                 </Row>
             </Container> 
-            
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
 
-                <br></br>
-                <br></br>
-
-                <br></br>
-                <br></br>
-
-                <br></br>
-
-                <div id = 'about-div'>
-                <About/>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                </div>
                 </div>
     );
 }
