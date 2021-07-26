@@ -1,9 +1,12 @@
 import {Container, Row, Image, Col} from 'react-bootstrap'
 import headshot from './resources/headshot.jpg'
+import About from './About.js'
+
 
 
 function Home(){
     return (
+        <div>
             <Container fluid>
                 <Row>
                     <Col lg={12} align='center'>
@@ -23,6 +26,34 @@ function Home(){
                     </Col>
                 </Row>
             </Container> 
+            
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+
+                <br></br>
+                <br></br>
+
+                <br></br>
+                <br></br>
+
+                <br></br>
+
+                <div id = 'about-div'>
+                <About/>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                </div>
+                </div>
     );
 }
 

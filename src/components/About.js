@@ -2,7 +2,6 @@ import {Container, Tab, Row, Col, Nav, Image} from "react-bootstrap";
 import ijet_logo from './resources/ijet_logo.png';
 import altamont_logo from './resources/altamont_logo.webp';
 import xaptum_logo from './resources/xaptum_logo.png';
-import python_logo from './resources/python_logo.png'
 
 
 
@@ -10,20 +9,20 @@ import python_logo from './resources/python_logo.png'
 function About() {
   return (
     <div className='about-div'>
-        <Container fluid>
-            <Row>
+        <Container className = 'about-container' fluid>
+            <Row >
                 <Col lg={12} align='center'>
                 <div className='bio'>
-                    <p>
+                    <p className='bio-text'>
                         Hello! My name is Caleb and I'm currently a senior in Computer Engineering at the University of Illinois at Urbana-Champaign.  
                         My main interests are Robotics and Data Science however I enjoy all kinds of software development. 
                     </p>
-                    <p>
+                    <p className='bio-text'>
                         I have interned at several tech companies over the past few years.  Currently, I work at Brunswick Corporation's iJet Laboratory as a 
                         Computer Vision/Machine Learning Intern applying my knowledge of Artificial Intelligence to assist in the construction of iJet's 
                         Computer Vision Pipeline.
                     </p>
-                    <p>
+                    <p className='bio-text'>
                         When I am not working I can often be found  running, biking, cheering for the Saint Louis Cardinals or playing one of my saxophones.
                     </p>
                 </div>
@@ -35,6 +34,8 @@ function About() {
 
         
                 <div className = 'experience'>
+                    <div className = 'experience-title'>Experience:</div>
+                    <div>
       <Tab.Container   defaultActiveKey="first">
         <Row>
             <Col sm={3}>
@@ -94,6 +95,7 @@ function About() {
             </Col>
         </Row>
     </Tab.Container>
+    </div>
     </div>
                 </Col>
             </Row>

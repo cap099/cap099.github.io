@@ -7,6 +7,9 @@ p {
 
 a {
     text-decoration: none;
+    color: rgb(200, 222, 231);
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 a:hover {
@@ -32,7 +35,7 @@ body {
     font-size: 50%;
     margin-left: 30%;
     margin-top: 2%;
-    text-align: left;
+    text-align: center;
     max-width: 40%;
 }
 
@@ -72,14 +75,13 @@ img {
 
 
 .bio {
-    font-size: 0.6em;
-    max-width: 40%;
+    font-size: 1.75em;
+    width: 60%;
     display: 'flex';
+    margin: 'auto';
 }
 
 .about-div{
-    max-width: 70%;
-    float: 'center';
     font-size: 0.9em;
 }
 
@@ -96,6 +98,16 @@ img {
  
 }
 
+
+.bio-text {
+    font-size: 0.5em;
+}
+
+.about-container {
+    margin: auto;
+    width: 75%;
+}
+
 .experience-tab:hover{
     color: rgb(190, 118, 9);
 }
@@ -105,6 +117,10 @@ img {
 
 }
 
+.experience-title {
+    margin-top: 12%;
+    margin-bottom: 3%;
+}
 .tab-pane {
     text-align: left;
 }
@@ -115,6 +131,7 @@ img {
 
 .experience {
     max-width: 60%;
+    margin: 2%;
 }
 
 
