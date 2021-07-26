@@ -7,6 +7,9 @@ p {
 
 a {
     text-decoration: none;
+    color: rgb(200, 222, 231);
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 a:hover {
@@ -32,7 +35,7 @@ body {
     font-size: 50%;
     margin-left: 30%;
     margin-top: 2%;
-    text-align: left;
+    text-align: center;
     max-width: 40%;
 }
 
@@ -45,7 +48,7 @@ body {
 }
 
 
-a.custom-link, .logo {
+a.custom-link, .logo, nav-link {
     text-decoration: none;
     color: rgb(200,222,231);
     margin-left: 10px;
@@ -69,3 +72,70 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+
+.bio {
+    font-size: 1.75em;
+    width: 60%;
+    display: 'flex';
+    margin: 'auto';
+}
+
+.about-div{
+    font-size: 0.9em;
+}
+
+.experience-logo {
+    max-width: 30%;
+}
+
+.experience-tab {
+    display: block;
+    padding: .5rem 1rem;
+    color: rgb(200, 222, 231);
+    text-decoration: none;
+    text-align: left;
+ 
+}
+
+
+.bio-text {
+    font-size: 0.5em;
+}
+
+.about-container {
+    margin: auto;
+    width: 75%;
+}
+
+.experience-tab:hover{
+    color: rgb(190, 118, 9);
+}
+
+.active.tab {
+    background-color: rgb(18, 37, 124);
+
+}
+
+.experience-title {
+    margin-top: 12%;
+    margin-bottom: 3%;
+}
+.tab-pane {
+    text-align: left;
+}
+
+.title {
+    font-size: 0.8em;
+}
+
+.experience {
+    max-width: 60%;
+    margin: 2%;
+}
+
+
+.contributions {
+    font-size: 0.5em;
+}
+
