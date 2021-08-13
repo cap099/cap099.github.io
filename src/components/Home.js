@@ -10,7 +10,7 @@ function Home(){
                 <Row>
                     <Col lg={12} align='center'>
                         <div className='headshot'> 
-                            <Image src = {headshot} alt="headshot" width="450" height = "450" roundedCircle/>
+                            <Image src = {headshot} alt="headshot" width="350" height = "350" roundedCircle/>
                         </div>
                     </Col>
                 </Row>
@@ -19,8 +19,14 @@ function Home(){
                         <div className='intro'>
                             <h1 className='intro-heading'>Hi, I'm Caleb Patton</h1>
                             <div className='intro-subheading'>I like Data and Robots</div>
-                            <div className='intro-paragraph'>
-                                calebpatton09@gmail.com
+                            <div>
+                                <p className='intro-paragraph'>
+                                    I am currently looking for full time offers for Software Engineering, 
+                                    Robotics, Data Science or Machine Learning positions.
+                                </p>
+                                <p className='intro-paragraph'>  
+                                    For inquiries: calebpatton09@gmail.com
+                                </p>
                             </div>   
                         </div>     
                     </Col>

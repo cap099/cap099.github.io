@@ -8,7 +8,7 @@ var projects = [
         "link": "portfolio"
     },
     {
-        "title": "Altamont Grip Identification",
+        "title": "Altamont Grip ID",
         "subtitle": "Freelancer",
         "date": "2021",
         "tools": ["Python", "Tensorflow"],
