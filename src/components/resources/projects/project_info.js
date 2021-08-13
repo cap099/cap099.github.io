@@ -7,6 +7,14 @@ var projects = [
         "image": "logo.png",
         "link": "portfolio"
     },
+    {
+        "title": "Altamont Grip ID",
+        "subtitle": "Freelancer",
+        "date": "2021",
+        "tools": ["Python", "Tensorflow"],
+        "image": "altamont_logo.png",
+        "link": "altamontgrips"
+    },
     
 
 ]
