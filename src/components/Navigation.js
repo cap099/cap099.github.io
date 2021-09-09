@@ -15,7 +15,7 @@ function Navigation(){
                             {/* <a href="#about-div">About</a> */}
                             <Link className = 'custom-link' to = {'/about'}>About</Link>
                             <Link className = 'custom-link' to = {'/projects'}>Projects</Link>
-                            <a className = 'custom-link' target = '_blank' rel="noreferrer" href = 'https://drive.google.com/file/d/1Xbe2ZjpwQn7N1WvY_-HjM7WDcs7-U1mF/view?usp=sharing'>Resume</a>
+                            <a className = 'custom-link' target = '_blank' rel="noreferrer" href = 'https://drive.google.com/file/d/19H06eDv2FWERSxSwlv7O_R9n0r4OVrjb/view?usp=sharing'>Resume</a>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
