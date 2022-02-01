@@ -59,11 +59,14 @@ function About() {
                 <Tab.Pane eventKey="first">
                 <Image className='experience-logo' src={ijet_logo} />
                 <div className = 'title'>Champaign Illinois - Robotics/CVML Intern</div>
-                <div className ='title'>February 2021 - Present</div>
+                <div className ='title'>February 2021 - December 2021</div>
                 <div className = 'contributions'>
                 <ul>
-                    <li>Assisted with the development of a CV/ML Pipeline for Autonomous Boating including researching methods of data collection, data labeling and model selection</li>
+                    <li> Developed a marine obstacle detection system in Python that combined the outputs of 4 Machine Learning models using Sensor Fusion techniques and ROS</li>
                     <li>Trained models for multiple object detection methods including Bounding Box Regression and Image Segmentation</li>
+                    <li>Implemented object detection and SLAM algorithms on educational robotic platforms such as Turtlebot3 and Amazon DeepRacer using LiDAR Sensors and Cameras</li>
+                    <li>Contributed to the development of a Computer Vision/Machine Learning pipeline for autonomous boating by overseeing initial trials of data collection, data labeling and model selection</li>
+                    <li>Developed software for autonomous boating simulations using the CGAL library and Unreal Engine in C++</li>
                 </ul>
                 </div>
                 </Tab.Pane>
@@ -75,7 +78,7 @@ function About() {
                 <ul>
                     <li>Prototyped an Anomaly Detection/Notifiction system using Machine Learning and Erlang</li>
                     <li>Created Data Visualizations of to show durations of anamalous connection events</li>
-                    <li>Used rebar3 to build a REST API to initialize IoT Devices on Xaptum's Network</li>
+                    <li>Used rebar3 to build a REST API to initialize thousands of IoT Devices on Xaptum's Network</li>
                 </ul>
                 </div>
                 </Tab.Pane>
@@ -102,6 +105,8 @@ function About() {
 
 
         </Container>
+
+
       </div>
    
   );

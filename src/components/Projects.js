@@ -73,6 +73,5 @@ function ProjectCard(props){
                 </Card.Body>
             </Card>
         </Link>
-
     )
 }

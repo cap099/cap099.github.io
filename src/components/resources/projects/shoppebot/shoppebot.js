@@ -1,19 +1,18 @@
-import {Link} from 'react-router-dom'
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css'; 
 import Table from 'react-bootstrap/Table';
 
 
-const percentage = 90;
+const percentage = 100;
 
 var article = (
     <div className='article'>
         <div className = 'article-title-card'>
             <div className='article-title'>
-                I made a personal website. 
+                ShoppeBot
             </div>
             <div className = 'article-subtitle'>
-                <Link to={'/'}>Check it out here!</Link>
+
             </div>
         </div>
         <div className='completion-card'>
@@ -40,7 +39,7 @@ var article = (
             </div>
             <div className = 'future-features'> 
             <div style={{'text-align': 'center', 'font-size':'1.2em'}}>
-            Future Features:
+            Future Tasks:
         </div>
             <div className='features-table'>
                 <div>            
@@ -56,25 +55,16 @@ var article = (
                         <tbody>
                             <tr>
                                 <td className = 'table-num'>1</td>
-                                <td>Make site look "nicer"</td>
+                                <td>Improve SLAM Algorithms</td>
                             </tr>
-                            <tr>
+                            {/* <tr>
                                 <td className = 'table-num'>2</td>
-                                <td>Create JSON files for all rendered data</td>
+                                <td>EDA on each part of product hierarchy, determine number of images for each class</td>
                             </tr>
                             <tr>
                                 <td className = 'table-num'>3</td>
-                                <td>Organize CSS so that files are more readable</td>
-                            </tr>
-                            <tr>
-                                <td className = 'table-num'>4</td>
-                                <td>Create Project Sorting Feature with links to descriptions</td>
-                            </tr>
-                            <tr>
-                                <td className = 'table-num'>4</td>
-                                <td>Add media to Projects page</td>
-                            </tr>
-                            
+                                <td>Train Models</td>
+                            </tr> */}
                          
                         </tbody>
                     </Table>
@@ -85,10 +75,8 @@ var article = (
 
         <div className = 'article-body'>
             <p className = 'article-body-text'>
-                This is the first iteration of my personal website that I built using React and Bootstrap.  
-                Since I had never used any frontend tools before, I used this project as crash course in Javascript, HTML and CSS.
-                There are many things that I would like to do differently for V2, including cleaning up the CSS and improving the visuals of the site. 
-                However, for a first time, I think this looks pretty good.
+                This project began as the final project for ECE 470 at UIUC.  However, Since then I have added features for fun.  For instance, the robot can now perform some very basic localization and mapping using a LIDAR sensor.
+
             </p>
         </div>
         

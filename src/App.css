@@ -210,3 +210,16 @@ img {
     max-width: 60%;
 }
 
+.coursework-div {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.classList {
+    list-style-type: none;
+}
+
+
+
+
