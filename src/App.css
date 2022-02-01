@@ -212,12 +212,17 @@ img {
 
 .coursework-div {
     margin: auto;
+    margin-top: 3%;
     width: 50%;
     text-align: center;
 }
 
 .classList {
     list-style-type: none;
+}
+
+.tools-div {
+    margin-top: 3%;
 }
 
 

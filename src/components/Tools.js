@@ -1,7 +1,12 @@
+import {Container, Row, Col} from 'react-bootstrap'
+
+
 function Tools(){
     return (
         <div className='tools-div'>
-            <div>
+            <Container fluid>
+                <Row className='project-grid'>
+                    <Col>      
             <h1>My Favorite Programming Tools:</h1>
             <br></br>
             <div>
@@ -17,12 +22,25 @@ function Tools(){
                 <li>x86 Assembly</li>
                 <li>RISC-V Assembly</li>
                 <li>Github</li>
-                <li>Python</li>
-                <li>Python</li>
-                <li>Python</li>
             </ul>
             </div>
+            </Col>      
+            <Col>
+            <h1>Tools I'm currently learning:</h1>
+            <br></br>
+            <div>
+            <ul className='toolsList'>
+                <li>Rust</li>
+                <li>Golang</li>
+                <li>TensorFlow</li>
+                <li>Stan</li>
+
+
+            </ul>
             </div>
+            </Col>      
+            </Row>
+            </Container>
         </div>
     );
 }

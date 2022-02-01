@@ -16,12 +16,12 @@ function Projects(){
                             {projects.map(
                                 (project) => (
                                     <ProjectCard 
-                                    title = {project.title} 
-                                    subtitle = {project.subtitle} 
-                                    date = {project.date}
-                                    tools = {project.tools}
-                                    image = {project.image}
-                                    link = {project.link}/>  ))}
+                                            title = {project.title} 
+                                            subtitle = {project.subtitle} 
+                                            date = {project.date}
+                                            tools = {project.tools}
+                                            image = {project.image}
+                                            link = {project.link}/>  ))}
                         </Row>
                     </Container>
             </Route>

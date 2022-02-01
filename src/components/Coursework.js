@@ -1,7 +1,14 @@
+import {Container, Row, Col} from 'react-bootstrap'
+
+
+
 function Coursework(){
     return (
-        <div className='coursework-div'>
-            <h1>Relevant Coursework:</h1>
+        <div className='tools-div'>
+            <Container fluid>
+                <Row className='project-grid'>
+                    <Col>
+            <h1>Relevant UIUC Coursework:</h1>
             <br></br>
             <div>
             <ul className='classList'>
@@ -17,9 +24,25 @@ function Coursework(){
                 <li><a className = 'custom-link' target = '_blank' rel="noreferrer" href = 'https://ece.illinois.edu/academics/courses/ece374'>Algorithms</a></li>
                 <li><a className = 'custom-link' target = '_blank' rel="noreferrer" href = 'https://courses.engr.illinois.edu/cs225/sp2022/'>Data Structures</a></li>
                 <li><a className = 'custom-link' target = '_blank' rel="noreferrer" href = 'https://ece.illinois.edu/academics/courses/ece411'>Computer Organization and Design (in progress)</a></li>
+                <li><a className = 'custom-link' target = '_blank' rel="noreferrer" href = 'https://courses.illinois.edu/schedule/2021/fall/AE/140'>Computer Aided Design</a></li>
 
             </ul>
             </div>
+            </Col>
+            <Col>
+            <h1>Things I'm Reading About Outside of School:</h1>
+            <br></br>
+            <div>
+            <ul className='classList'>
+                <li><a className = 'custom-link' target = '_blank' rel="noreferrer" href = 'https://ocw.mit.edu/courses/mathematics/18-650-statistics-for-applications-fall-2016/'>Statistical Modeling</a></li>
+                <li><a className = 'custom-link' target = '_blank' rel="noreferrer" href = 'https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-100-aerodynamics-fall-2005/'>Aerodynamics</a></li>
+                <li><a className = 'custom-link' target = '_blank' rel="noreferrer" href = 'https://cs.illinois.edu/academics/courses/cs424'>Real Time Operating Systems</a></li>
+                <li><a className = 'custom-link' target = '_blank' rel="noreferrer" href = 'http://slazebni.cs.illinois.edu/spring22/'>Deep Learning for Computer Vision</a></li>
+            </ul>
+            </div>
+            </Col>
+            </Row>
+            </Container>
         </div>
     );
 }
