@@ -18,14 +18,15 @@ function Home(){
                     <Col lg={12}>
                         <div className='intro'>
                             <h1 className='intro-heading'>Hi, I'm Caleb Patton</h1>
-                            <div className='intro-subheading'>I like Data and Robots</div>
                             <div>
-                                {/* <p className='intro-paragraph'>
-                                    I am currently looking for full time offers for Software Engineering, 
-                                    Robotics, Data Science or Machine Learning positions.
-                                </p> */}
+                                <p className='intro-paragraph'> ECE@Illinois Computer Engineering Graduate</p>
+                                <p className='intro-paragraph'>
+                                    I am currently looking for full time Software Engineering roles, 
+                                    particularly ones in the field of Perception, Robotics, or Computer Vision.
+                                    I am open to In-office, Hybrid and Remote roles.
+                                </p>
                                 <p className='intro-paragraph'>  
-                                    For inquiries: calebpatton09@gmail.com
+                                    Contact Me: calebpatton09@gmail.com
                                 </p>
                             </div>   
                         </div>     

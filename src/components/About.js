@@ -16,13 +16,13 @@ function About() {
                 <div className='bio'>
                     <p className='bio-text'>
                         Hello! My name is Caleb.  In May I graduated with a Bachelor's degree in Computer Engineering from the University of Illinois at Urbana-Champaign.  
-                        During my Senior year at UIUC, I spent a great deal of time interviewing for jobs, trying to find a good fit.  However, shortly after graduating I was 
+                        During my Senior year at UIUC, I spent a great deal of time interviewing for jobs, trying to find a good fit.  However, after graduating I was 
                         unexpectedly forced to move to Reno, Nevada for personal reasons, upsetting my plans.
                     </p>
                     <br></br>
                     <p className='bio-text'>
                         Now that I am settled in Reno, I have restarted my job search.  While I was completing my undergrad I interned at companies that were working with technologies that
-                        were related to Machine Learning, Computer Vision, Robotics and Software Engineering, in order to eventually become a Perception Software Engineer, and that is still my goal.
+                        were related to Machine Learning, Computer Vision, Robotics and Software Engineering, in order to eventually become a Perception Software Engineer, which is still my goal.
                         Currently, I am spending time self studying those same technologies in addition to applying for positions.  
                     </p>
                     <br></br>
@@ -95,7 +95,7 @@ function About() {
                 <div className = 'contributions'>
                 <ul>
                     <li>Used fast.ai to train a Deep Network to classify images of products</li>
-                    <li>Contributed to the development of a static site generator using Python, Flask and Docke</li>
+                    <li>Contributed to the development of a static site generator using Python, Flask and Docker</li>
                     <li>Implemented new production tracking system on industrial CNC Machines</li>
                     <li>Contributed to a REST API to initialize thousands of IoT Devices on Xaptum's Network using rebar3</li>
                 </ul>

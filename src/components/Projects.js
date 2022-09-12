@@ -10,7 +10,7 @@ function Projects(){
         <div>
         <Switch>
             <Route exact path={route.path}>
-            <h3 className='project-header'>Ask me about my other projects!</h3>
+            <h3 className='project-header'>Some of my past projects. Ask me about my current projects!</h3>
                     <Container fluid >
                         <Row className='project-grid'>
                             {projects.map(
