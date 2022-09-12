@@ -9,22 +9,27 @@ import xaptum_logo from './resources/xaptum_logo.png';
 function About() {
   return (
     <div className='about-div'>
+        <br></br>
         <Container className = 'about-container' fluid>
             <Row >
                 <Col lg={12} align='center'>
                 <div className='bio'>
                     <p className='bio-text'>
-                        Hello! My name is Caleb and I'm currently a senior in Computer Engineering at the University of Illinois at Urbana-Champaign.  
-                        My main interests are Robotics and Data Science however I enjoy all kinds of software development. 
+                        Hello! My name is Caleb.  In May I graduated with a Bachelor's degree in Computer Engineering from the University of Illinois at Urbana-Champaign.  
+                        During my Senior year at UIUC, I spent a great deal of time interviewing for jobs, trying to find a good fit.  However, shortly after graduating I was 
+                        unexpectedly forced to move to Reno, Nevada for personal reasons, upsetting my plans.
                     </p>
+                    <br></br>
                     <p className='bio-text'>
-                        I have interned at several tech companies over the past few years.  Currently, I work at Brunswick Corporation's iJet Laboratory as a 
-                        Computer Vision/Machine Learning Intern applying my knowledge of Artificial Intelligence to assist in the construction of iJet's 
-                        Computer Vision Pipeline.
+                        Now that I am settled in Reno, I have restarted my job search.  While I was completing my undergrad I interned at companies that were working with technologies that
+                        were related to Machine Learning, Computer Vision, Robotics and Software Engineering, in order to eventually become a Perception Software Engineer, and that is still my goal.
+                        Currently, I am spending time self studying those same technologies in addition to applying for positions.  
                     </p>
+                    <br></br>
                     <p className='bio-text'>
-                        When I am not working I can often be found  running, biking, cheering for the Saint Louis Cardinals or playing one of my saxophones.
+                        Thanks for visiting my site.  You can read about my experiences below.
                     </p>
+
                 </div>
                 </Col>
             </Row>
@@ -62,11 +67,12 @@ function About() {
                 <div className ='title'>February 2021 - December 2021</div>
                 <div className = 'contributions'>
                 <ul>
-                    <li> Developed a marine obstacle detection system in Python that combined the outputs of 4 Machine Learning models using Sensor Fusion techniques and ROS</li>
-                    <li>Trained models for multiple object detection methods including Bounding Box Regression and Image Segmentation</li>
-                    <li>Implemented object detection and SLAM algorithms on educational robotic platforms such as Turtlebot3 and Amazon DeepRacer using LiDAR Sensors and Cameras</li>
-                    <li>Contributed to the development of a Computer Vision/Machine Learning pipeline for autonomous boating by overseeing initial trials of data collection, data labeling and model selection</li>
-                    <li>Developed software for autonomous boating simulations using the CGAL library and Unreal Engine in C++</li>
+                    <li> Developed 2 perception systems for an autonomous watercraft to detect swimmers, boats, docks and other obstacles using FasterRCNN and YOLOv5 and MaskRCNN in at 30 fps and 10 fps respectively</li>
+                    <li>Optimized performance of C++ code for scientific computing using the CGAL library to support autonomous boating simulations</li>
+                    <li>Researched methods to utilize and generate synthetic data to improve performance of DNNs using Unreal Engine by varying time of day, weather conditions and object generation</li>
+                    <li>Led team of 15 interns in marine RGB and IR image data collection and subsequent obstacle labeling processes using dSpace Autera and Microsoft Azure</li>
+                    <li>Reported initial findings of research into use of GANs to generate synthetic marine image data to supervisor</li>
+                    <li>Ran mapping algorithms on mobile robotic platforms using LiDAR Sensors and Raspberry Pi Cameras</li>
                 </ul>
                 </div>
                 </Tab.Pane>
@@ -77,8 +83,8 @@ function About() {
                 <div className = 'contributions'>
                 <ul>
                     <li>Prototyped an Anomaly Detection/Notifiction system using Machine Learning and Erlang</li>
+                    <li>Detected anomalous connection events using Isolation Forest and Logistic Regression algorithms</li>
                     <li>Created Data Visualizations of to show durations of anamalous connection events</li>
-                    <li>Used rebar3 to build a REST API to initialize thousands of IoT Devices on Xaptum's Network</li>
                 </ul>
                 </div>
                 </Tab.Pane>
@@ -89,8 +95,9 @@ function About() {
                 <div className = 'contributions'>
                 <ul>
                     <li>Used fast.ai to train a Deep Network to classify images of products</li>
-                    <li>Contributed to the development of a static site generator using Python, Flask and SQLALchemy</li>
+                    <li>Contributed to the development of a static site generator using Python, Flask and Docke</li>
                     <li>Implemented new production tracking system on industrial CNC Machines</li>
+                    <li>Contributed to a REST API to initialize thousands of IoT Devices on Xaptum's Network using rebar3</li>
                 </ul>
                 </div>
                 </Tab.Pane>
@@ -98,6 +105,8 @@ function About() {
             </Col>
         </Row>
     </Tab.Container>
+    <br></br>
+    <br></br>
     </div>
     </div>
                 </Col>

@@ -8,10 +8,12 @@ function Coursework(){
             <Container fluid>
                 <Row className='project-grid'>
                     <Col>
-            <h1>Relevant UIUC Coursework:</h1>
+            <h1>Relevant Coursework at Illinois:</h1>
             <br></br>
             <div>
             <ul className='classList'>
+                {/* <li><a className = 'custom-link' target = '_blank' rel="noreferrer" href = 'https://cap099.github.io/resume/finaltranscript.pdf'>My Final Transcript</a></li>
+                <br></br> */}
                 <li><a className = 'custom-link' target = '_blank' rel="noreferrer" href = 'https://ece.illinois.edu/academics/courses/ece449'>Machine Learning Theory</a></li>
                 <li><a className = 'custom-link' target = '_blank' rel="noreferrer" href = 'https://cs.illinois.edu/academics/courses/cs441'>Applied Machine Learning</a></li>
                 <li><a className = 'custom-link' target = '_blank' rel="noreferrer" href = 'https://math.illinois.edu/resources/department-resources/syllabus-math-415'>Linear Algebra</a></li>
@@ -23,13 +25,14 @@ function Coursework(){
                 <li><a className = 'custom-link' target = '_blank' rel="noreferrer" href = 'https://ece.illinois.edu/academics/courses/ece310'>Digital Signal Processing</a></li>
                 <li><a className = 'custom-link' target = '_blank' rel="noreferrer" href = 'https://ece.illinois.edu/academics/courses/ece374'>Algorithms</a></li>
                 <li><a className = 'custom-link' target = '_blank' rel="noreferrer" href = 'https://courses.engr.illinois.edu/cs225/sp2022/'>Data Structures</a></li>
-                <li><a className = 'custom-link' target = '_blank' rel="noreferrer" href = 'https://ece.illinois.edu/academics/courses/ece411'>Computer Organization and Design (in progress)</a></li>
+                <li><a className = 'custom-link' target = '_blank' rel="noreferrer" href = 'https://ece.illinois.edu/academics/courses/ece411'>Computer Organization and Design</a></li>                
                 <li><a className = 'custom-link' target = '_blank' rel="noreferrer" href = 'https://courses.illinois.edu/schedule/2021/fall/AE/140'>Computer Aided Design</a></li>
+
 
             </ul>
             </div>
             </Col>
-            <Col>
+            {/* <Col>
             <h1>Things I'm Reading About Outside of School:</h1>
             <br></br>
             <div>
@@ -40,7 +43,7 @@ function Coursework(){
                 <li><a className = 'custom-link' target = '_blank' rel="noreferrer" href = 'http://slazebni.cs.illinois.edu/spring22/'>Deep Learning for Computer Vision</a></li>
             </ul>
             </div>
-            </Col>
+            </Col> */}
             </Row>
             </Container>
         </div>

@@ -1,11 +1,11 @@
 var projects = [
     {
-        "title": "cap099.github.io",
+        "title": "ROS Robot Simulation",
         "subtitle": "Sole Developer",
         "date": "2021",
-        "tools": ["React", "Bootstrap","HTML/CSS"],
-        "image": "logo.png",
-        "link": "portfolio"
+        "tools": ["Python", "Webots", "ROS Noetic"],
+        "image": "shoppebot.png",
+        "link": "shoppebot"
     },
     {
         "title": "Altamont Grip ID",
@@ -32,12 +32,12 @@ var projects = [
         "link": "galaga"
     },
     {
-        "title": "ROS Robot Simulation",
+        "title": "cap099.github.io",
         "subtitle": "Sole Developer",
         "date": "2021",
-        "tools": ["Python", "Webots", "ROS Noetic"],
-        "image": "shoppebot.png",
-        "link": "shoppebot"
+        "tools": ["React", "Bootstrap","HTML/CSS"],
+        "image": "logo.png",
+        "link": "portfolio"
     },
     
 

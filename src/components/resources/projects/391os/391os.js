@@ -1,6 +1,6 @@
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css'; 
-import Table from 'react-bootstrap/Table';
+/*import Table from 'react-bootstrap/Table';*/
 
 
 const percentage = 99;

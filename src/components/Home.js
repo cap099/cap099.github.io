@@ -20,10 +20,10 @@ function Home(){
                             <h1 className='intro-heading'>Hi, I'm Caleb Patton</h1>
                             <div className='intro-subheading'>I like Data and Robots</div>
                             <div>
-                                <p className='intro-paragraph'>
+                                {/* <p className='intro-paragraph'>
                                     I am currently looking for full time offers for Software Engineering, 
                                     Robotics, Data Science or Machine Learning positions.
-                                </p>
+                                </p> */}
                                 <p className='intro-paragraph'>  
                                     For inquiries: calebpatton09@gmail.com
                                 </p>

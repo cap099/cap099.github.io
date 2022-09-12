@@ -18,14 +18,13 @@ function Tools(){
                 <li>PyTorch</li>
                 <li>ROS</li>
                 <li>Webots</li>
-                <li>Gazebo</li>
                 <li>x86 Assembly</li>
                 <li>RISC-V Assembly</li>
                 <li>Github</li>
             </ul>
             </div>
             </Col>      
-            <Col>
+            {/* <Col>
             <h1>Tools I'm currently learning:</h1>
             <br></br>
             <div>
@@ -38,7 +37,7 @@ function Tools(){
 
             </ul>
             </div>
-            </Col>      
+            </Col>       */}
             </Row>
             </Container>
         </div>
