@@ -234,13 +234,16 @@ img {
     list-style-type: none;
 }
 
-.tools-div {
-    text-align: left;
-} 
+.list-div {
+    margin-top: 5%;
+    min-width: 280px;
+}
 
-.tools-list {
+.list-content {
     list-style-type: none;
 }
+
+
 
 
 

@@ -4,12 +4,12 @@ import {Container, Row, Col} from 'react-bootstrap'
 
 function Coursework(){
     return (
-        <div className='tools-div'>
+        <div className='list-div'>
             <Container>
                 <Row>
                     <Col>
                         <h1>Relevant Coursework at Illinois:</h1>
-                        <ul className='classList'>
+                        <ul className='list-content's>
                             <li><a className = 'custom-link' target = '_blank' rel="noreferrer" href = 'https://ece.illinois.edu/academics/courses/ece449'>Machine Learning Theory</a></li>
                             <li><a className = 'custom-link' target = '_blank' rel="noreferrer" href = 'https://cs.illinois.edu/academics/courses/cs441'>Applied Machine Learning</a></li>
                             <li><a className = 'custom-link' target = '_blank' rel="noreferrer" href = 'https://math.illinois.edu/resources/department-resources/syllabus-math-415'>Linear Algebra</a></li>
