@@ -1,40 +1,64 @@
 import {Container, Row, Image, Col} from 'react-bootstrap'
 import headshot from './resources/headshot.jpg'
-
+import blockI from './resources/blockI.png'
+import blockN from './resources/blockN.png'
+import './styles/Home.css'
 
 
 function Home(){
     return (
-        <div>
+        <div className='body'>
+        <div className='homepage'>
             <Container fluid>
-                <Row>
-                    <Col lg={12} align='center'>
-                        <div className='headshot'> 
-                            <Image src = {headshot} alt="headshot" width="350" height = "350" roundedCircle/>
+                <Row xs={1} md={2} className='align-items-center'>
+                    <Col>
+                        <div className='image'>
+                            <Image src={headshot} alt="headshot" roundedCircle/>
+                        </div>
+                    </Col>
+                    <Col>
+                        <div className='intro-title'>
+                            <div className='hello'>
+                                Hi, 
+                            </div>
+                            <div className='my-name-is'>
+                                I'm Caleb.
+                            </div>
                         </div>
                     </Col>
                 </Row>
-                <Row>
-                    <Col lg={12}>
-                        <div className='intro'>
-                            <h1 className='intro-heading'>Hi, I'm Caleb Patton</h1>
-                            <div>
-                                <p className='intro-paragraph'> ECE@Illinois Computer Engineering Graduate</p>
-                                <p className='intro-paragraph'>
-                                    I am currently looking for full time Software Engineering roles, 
-                                    particularly ones in the field of Perception, Robotics, or Computer Vision.
-                                    I am open to In-office, Hybrid and Remote roles.
-                                </p>
-                                <p className='intro-paragraph'>  
-                                    Contact Me: calebpatton09@gmail.com
-                                </p>
-                            </div>   
-                        </div>     
+                <Row xs={1} md={2} className='align-items-center'>
+                    <Col>
+                        <div className='text-content'>
+                            In May 2022 I graduated from the University of Illinois with a B.S. in Computer Engineering. During my 
+                            time at UIUC, I explored my interest in Deep Learning and Computer Vision through my coursework and 
+                            through internships with three different companies.
+                        </div>
+                    </Col>
+                    <Col align='center'>
+                        <div className='logo'>
+                            <Image src={blockI} alt="uiucLogo" width={250}/>
+                        </div>
+                    </Col>
+                </Row>
+                <Row xs={1} md={2} className='align-items-center'>
+                    <Col align='center'>
+                        <div className='logo'>
+                            <Image src={blockN} alt="unrLogo" width={500}/>
+                        </div>
+                    </Col>
+                    <Col>
+                        <div className='text-content'>
+                            After graduation, I moved to Reno, Nevada to start an M.S. in Mechanical Engineering 
+                            and to research Autonomous Vehicles in the Learning Autonomy 
+                            and Control Systems Lab with Dr. Petros Voulgaris.
+                        </div>   
                     </Col>
                 </Row>
             </Container> 
 
-                </div>
+        </div>
+        </div>
     );
 }
 

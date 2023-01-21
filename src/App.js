@@ -13,13 +13,12 @@ function App() {
     <Router>
         <Switch>
             <div className="App">
-                    <Navigation/>
+                    {/* <Navigation/> */}
                     <Route path="/" exact component={Home}/>
                     <Route path="/about" component={About}/>
                     <Route path="/projects" component={Projects}/>
                     <Route path="/coursework" component={Coursework}/>
                     <Route path="/tools" component={Tools}/>
-
             </div>
         </Switch>
     </Router>

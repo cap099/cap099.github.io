@@ -1,0 +1,36 @@
+.intro-title {
+    font-size: max(6vmin, 29px);
+    min-width: 280px;
+    text-align: center;
+    text-align: left;
+    margin-left: 15%;
+}
+
+.image {
+    min-width: 280px;
+    max-width: 500px;
+}
+
+.homepage {
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.text-content {
+    text-align: left;
+    font-size: max(2.2vmin, 15px);
+    padding: 2%;
+}
+
+.logo {
+    min-width: 280px;
+}
