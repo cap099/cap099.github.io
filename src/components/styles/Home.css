@@ -1,7 +1,6 @@
 .intro-title {
     font-size: max(6vmin, 29px);
     min-width: 280px;
-    text-align: center;
     text-align: left;
     margin-left: 15%;
 }
@@ -26,11 +25,12 @@ img {
 }
 
 .text-content {
-    text-align: left;
+    text-align: justify;
     font-size: max(2.2vmin, 15px);
     padding: 2%;
 }
 
 .logo {
+    padding: 10%;
     min-width: 280px;
 }
