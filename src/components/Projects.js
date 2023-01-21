@@ -1,6 +1,5 @@
 import projects from './resources/projects/project_info.js'
-import './resources/styles/projects.css'
-import {Card, Container, Row} from 'react-bootstrap'
+import {Card, Container, Row, Col} from 'react-bootstrap'
 import {Link, Route, Switch, useParams, useRouteMatch } from 'react-router-dom'
 
 function Projects(){
@@ -10,26 +9,23 @@ function Projects(){
         <div>
         <Switch>
             <Route exact path={route.path}>
-            <h3 className='project-header'>Some of my past projects. Ask me about my current projects!</h3>
-                    <Container fluid >
-                        <Row className='project-grid'>
-                            {projects.map(
-                                (project) => (
-                                    <ProjectCard 
-                                            title = {project.title} 
-                                            subtitle = {project.subtitle} 
-                                            date = {project.date}
-                                            tools = {project.tools}
-                                            image = {project.image}
-                                            link = {project.link}/>  ))}
+                <div className='project-header'>Some of my past projects:</div>
+                    <div className='project-list'>
+                    <Container>
+                        <Row xl={4}>
+                            {projects.map((project) => (<Col align='center'><ProjectCard    title = {project.title} 
+                                                                        subtitle = {project.subtitle} 
+                                                                        date = {project.date}
+                                                                        tools = {project.tools}
+                                                                        image = {project.image}
+                                                                        link = {project.link}/></Col>))}
                         </Row>
                     </Container>
+                </div>
             </Route>
-
             <Route path={`${route.path}/:articleName`}>
                 <Article/>
             </Route>
-
         </Switch>
         </div>
     );
@@ -45,7 +41,6 @@ function Article(){
 
 
 function ProjectCard(props){
-
     let route = useRouteMatch();
     const img = require('./resources/projects/' + props.link + '/img/' + props.image).default;
     var tools = props.tools;
@@ -57,19 +52,16 @@ function ProjectCard(props){
             tool_string += tools[i];
         }   
     }
-    console.log(tool_string);
     return( 
         <Link className='project-link' to={route.url + '/' + props.link}>
             <Card className='project-card' >
-                    <Card.Img variant="top" src={img} />
+                <Card.Img src={img}/>
                 <Card.Body>
-                    <Card.Title>{(props.title).toUpperCase()}</Card.Title>
-                    <Card.Text>
-                    {props.subtitle} || {props.date}
-                    <br></br>
-                    <br></br>
-                    {tool_string}
-                    </Card.Text>
+                <Card.Title>{(props.title).toUpperCase()}</Card.Title>
+                <Card.Text>
+                    <div>{props.date}</div>
+                    <div>{tool_string}</div>
+                </Card.Text>
                 </Card.Body>
             </Card>
         </Link>

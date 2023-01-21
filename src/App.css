@@ -1,3 +1,6 @@
+div { outline: 1px solid red !important; }
+header { outline: 1px solid red !important; }   
+
 html,body {
     width: 100%;
     height: 100%;
@@ -15,6 +18,17 @@ a:hover {
     color: rgb(232, 74, 39);
 }
 
+p {
+    font-size: 16px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .App {
     width: 100%;
     top: 0;
@@ -25,9 +39,6 @@ a:hover {
     font-size: calc(10px + 2vmin);
     justify-content: center;
 } 
-
-div { outline: 1px solid red !important; }
-header { outline: 1px solid red !important; }   
 
 /* ####### HOMEPAGE ####### */
 .intro-title {
@@ -50,10 +61,6 @@ header { outline: 1px solid red !important; }
 .body {
     display: flex;
     justify-content: center;
-}
-
-img {
-    max-width: 100%;
 }
 
 .text-content {
@@ -80,17 +87,45 @@ img {
 
 /* ###################### */
 
-p {
-    font-size: 16px;
-    text-align: justify;
-    text-justify: inter-word;
+/* #### Coursework and Tools #### */
+
+.list-div {
+    margin-top: 5%;
+    min-width: 280px;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+.list-content {
+    list-style-type: none;
 }
 
+/* ############################## */
+
+/* #### PROJECTS */
+.project-header {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%; 
+    font-size: calc(3vmin + 25px);
+    min-width: 280px;
+}
+
+.project-card {
+    background-color: white;
+    width: 277px;
+    height: 400px;
+    margin-top: 20px;
+  }
+
+.project-link {
+      color: rgb(19, 41, 75);
+      text-decoration: none;
+}
+
+.card-title {
+    /* font-size: 1.13em; */
+}
+
+/*#####################*/  
 
 .bio {
     font-size: 1.75em;
@@ -223,25 +258,9 @@ img {
     max-width: 60%;
 }
 
-.coursework-div {
-    margin: auto;
-    margin-top: 3%;
-    width: 50%;
-    text-align: center;
-}
 
-.classList {
-    list-style-type: none;
-}
 
-.list-div {
-    margin-top: 5%;
-    min-width: 280px;
-}
 
-.list-content {
-    list-style-type: none;
-}
 
 
 
