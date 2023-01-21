@@ -4,7 +4,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Projects from './components/Projects.js'
 import Home from './components/Home.js'
 import Navigation from './components/Navigation.js';
-import About from './components/About.js'
+import Experience from './components/Experience.js'
 import Coursework from './components/Coursework';
 import Tools from './components/Tools';
 
@@ -16,7 +16,7 @@ function App() {
                     <Navigation/>
                 <div className='body'>
                     <Route path="/" exact component={Home}/>
-                    <Route path="/about" component={About}/>
+                    <Route path="/experience" component={Experience}/>
                     <Route path="/projects" component={Projects}/>
                     <Route path="/coursework" component={Coursework}/>
                     <Route path="/tools" component={Tools}/>

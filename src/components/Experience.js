@@ -6,33 +6,10 @@ import xaptum_logo from './resources/xaptum_logo.png';
 
 
 
-function About() {
+function Experience() {
   return (
-    <div className='about-div'>
-        <br></br>
+    <div className='about-page'>
         <Container className = 'about-container' fluid>
-            <Row >
-                <Col lg={12} align='center'>
-                <div className='bio'>
-                    <p className='bio-text'>
-                        Hello! My name is Caleb.  In May I graduated with a Bachelor's degree in Computer Engineering from the University of Illinois at Urbana-Champaign.  
-                        During my Senior year at UIUC, I spent a great deal of time interviewing for jobs, trying to find a good fit.  However, after graduating I was 
-                        unexpectedly forced to move to Reno, Nevada for personal reasons, upsetting my plans.
-                    </p>
-                    <br></br>
-                    <p className='bio-text'>
-                        Now that I am settled in Reno, I have restarted my job search.  While I was completing my undergrad I interned at companies that were working with technologies that
-                        were related to Machine Learning, Computer Vision, Robotics and Software Engineering, in order to eventually become a Perception Software Engineer, which is still my goal.
-                        Currently, I am spending time self studying those same technologies in addition to applying for positions.  
-                    </p>
-                    <br></br>
-                    <p className='bio-text'>
-                        Thanks for visiting my site.  You can read about my experiences below.
-                    </p>
-
-                </div>
-                </Col>
-            </Row>
 
             <Row>
                 <Col lg={12} align='center'>
@@ -121,7 +98,7 @@ function About() {
   );
 }
 
-export default About;
+export default Experience;
 
 
 

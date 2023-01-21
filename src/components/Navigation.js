@@ -12,10 +12,10 @@ function Navigation(){
                     <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
                     <Navbar.Collapse className='justify-content-end' id='responsive-navbar-nav'>
                         <Nav>
-                            <Link className='navbar-link' to = {'/about'}>About</Link>
+                            <Link className='navbar-link' to = {'/experience'}>Experience</Link>
                             <Link className='navbar-link' to = {'/projects'}>Projects</Link>
-                            <Link className='navbar-link' to = {'/coursework'}>Coursework</Link>
                             <Link className='navbar-link' to = {'/tools'}>Tools</Link>
+                            <Link className='navbar-link' to = {'/coursework'}>Coursework</Link>
                             <a className = 'navbar-link' target = '_blank' rel="noreferrer" href = 'https://cap099.github.io/resume/resume.pdf'>Resume</a>
                         </Nav>
                     </Navbar.Collapse>

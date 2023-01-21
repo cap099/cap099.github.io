@@ -5,7 +5,7 @@ import blockN from './resources/blockN.png'
 
 function Home(){
     return (
-        <div className='homepage'>
+        <div className='home-page'>
             <Container fluid>
                 <Row xs={1} md={2} className='align-items-center'>
                     <Col>
