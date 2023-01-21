@@ -5,19 +5,18 @@ import {Link} from 'react-router-dom';
 
 function Navigation(){
     return (
-        <div className = 'navigation'>
+        <div className='nav-bar'>
             <Navbar  collaspeOnSelect expand = 'sm' variant='dark'>
                 <Container fluid>
-                    <Navbar.Brand bsPrefix ='logo' href = '/'><Image src = {headshot} alt="headshot" width="80" height = "80" roundedCircle/> Home</Navbar.Brand>
+                    <Navbar.Brand href = '/'><div className='brand'>Home</div></Navbar.Brand>
                     <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
                     <Navbar.Collapse className='justify-content-end' id='responsive-navbar-nav'>
                         <Nav>
-                            {/* <a href="#about-div">About</a> */}
-                            <Link className = 'custom-link' to = {'/about'}>About</Link>
-                            <Link className = 'custom-link' to = {'/projects'}>Projects</Link>
-                            <Link className = 'custom-link' to = {'/coursework'}>Coursework</Link>
-                            <Link className = 'custom-link' to = {'/tools'}>Tools</Link>
-                            <a className = 'custom-link' target = '_blank' rel="noreferrer" href = 'https://cap099.github.io/resume/resume.pdf'>Resume</a>
+                            <Link className='navbar-link' to = {'/about'}>About</Link>
+                            <Link className='navbar-link' to = {'/projects'}>Projects</Link>
+                            <Link className='navbar-link' to = {'/coursework'}>Coursework</Link>
+                            <Link className='navbar-link' to = {'/tools'}>Tools</Link>
+                            <a className = 'navbar-link' target = '_blank' rel="noreferrer" href = 'https://cap099.github.io/resume/resume.pdf'>Resume</a>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

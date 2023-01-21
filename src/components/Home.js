@@ -2,24 +2,21 @@ import {Container, Row, Image, Col} from 'react-bootstrap'
 import headshot from './resources/headshot.jpg'
 import blockI from './resources/blockI.png'
 import blockN from './resources/blockN.png'
-import './styles/Home.css'
-
 
 function Home(){
     return (
-        <div className='body'>
         <div className='homepage'>
             <Container fluid>
                 <Row xs={1} md={2} className='align-items-center'>
-                    <Col align='center'>
-                        <div className='image'>
-                            <Image src={headshot} alt="headshot" roundedCircle/>
-                        </div>
-                    </Col>
                     <Col>
                         <div className='intro-title'>
                                 <div>Hi,</div>
                                 <div>I'm Caleb.</div>
+                        </div>
+                    </Col>
+                    <Col align='center'>
+                        <div className='headshot'>
+                            <Image src={headshot} alt="headshot" roundedCircle/>
                         </div>
                     </Col>
                 </Row>
@@ -32,14 +29,14 @@ function Home(){
                         </div>
                     </Col>
                     <Col align='center' xs={{order: 2}}>
-                        <div className='logo'>
+                        <div className='school-logo'>
                             <Image src={blockI} alt="uiucLogo" width={250}/>
                         </div>
                     </Col>
                 </Row>
                 <Row xs={1} sm={2} className='align-items-center'>
                     <Col align='center' xs={{order: 2}} md={{order: 1}}>
-                        <div className='logo'>
+                        <div className='school-logo'>
                             <Image src={blockN} alt="unrLogo" width={250}/>
                         </div>
                     </Col>
@@ -52,8 +49,6 @@ function Home(){
                     </Col>
                 </Row>
             </Container> 
-
-        </div>
         </div>
     );
 }
