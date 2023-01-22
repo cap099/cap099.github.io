@@ -6,9 +6,9 @@ import {Link} from 'react-router-dom';
 function Navigation(){
     return (
         <div className='nav-bar'>
-            <Navbar  collaspeOnSelect expand = 'sm' variant='dark'>
+            <Navbar  collaspeOnSelect expand = 'md' variant='dark'>
                 <Container fluid>
-                    <Navbar.Brand href = '/'><div className='brand'>Home</div></Navbar.Brand>
+                    <Navbar.Brand href='/'><Image src={headshot} height={70} width={70}/>Home</Navbar.Brand>
                     <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
                     <Navbar.Collapse className='justify-content-end' id='responsive-navbar-nav'>
                         <Nav>
