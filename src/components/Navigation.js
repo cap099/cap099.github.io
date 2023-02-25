@@ -16,7 +16,7 @@ function Navigation(){
                             <Link className='navbar-link' to = {'/projects'}>Projects</Link>
                             <Link className='navbar-link' to = {'/tools'}>Tools</Link>
                             <Link className='navbar-link' to = {'/coursework'}>Coursework</Link>
-                            <a className = 'navbar-link' target = '_blank' rel="noreferrer" href = 'https://cap099.github.io/resume/resume.pdf'>Resume</a>
+                            <a className = 'navbar-link' target = '_blank' rel="noreferrer" href = 'https://cap099.github.io/resume/CalebPattonResume.pdf'>Resume</a>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
